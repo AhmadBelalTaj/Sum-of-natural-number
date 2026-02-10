@@ -1,6 +1,9 @@
-n = int(input("Enter the number who sum you find: "))
-sum=0
+n = int(input("Enter the value of terms:"))
 
-for i in range(1, n+1):
+sum = 0 #initialise
+i = 1 #initialise
+while i<=n: #loop will run from 1 to n
     sum = sum+i
-    print("\nsum =" , sum)
+    i = i+1
+
+print("\nSum =", sum)
